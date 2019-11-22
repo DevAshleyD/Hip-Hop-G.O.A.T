@@ -1,0 +1,349 @@
+.app{
+    font-family: "lobster";
+    transition: height 3s;
+
+}
+
+.chat{
+    color: black;
+    height: 100%;
+}
+
+.conversation{
+    cursor: pointer;
+}
+
+.conversation:hover{
+    color: red;
+}
+
+.chatText{
+    background: white;
+    overflow-y: auto;
+    color: black;
+    height: 500px;
+    padding: 5px;
+}
+
+.chatConversations{
+    background: white;
+    overflow-y: auto;
+    color: black;
+    height: 500px;
+    padding: 5px;
+    padding-right: 10%;
+}
+
+.conversationFrame{
+    border: solid black 1px;
+    border-radius: 3%;
+    padding: 5%;
+}
+
+#arrow{
+    margin-right: 4%;
+    vertical-align: bottom;
+}
+
+#noArtistSelected{
+    animation: fade-in 2s linear;
+    text-align: center;
+}
+
+#banner{
+    margin-bottom: 40px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#artist-list-header{
+    text-align: center;
+}
+
+.fade{
+   /* animation: fade-in 1s linear;*/
+}
+
+#goatBanner{
+    font-size: 4em;
+    animation: fade-in 1s linear;
+}
+
+#goat{
+    animation: fade-in 1s linear;
+}
+
+#goatWhite{
+    color: white;
+}
+
+#toWhite{
+    color: white;
+}
+
+#to{
+    animation: fade-in 1s linear;
+}
+
+.fadeInName{
+    opacity: 1;
+    animation: fade 1.5s linear;
+}
+
+.fadeOut {
+    opacity: 1;
+    animation: fade 1s linear;
+}
+
+.fadeIn{
+    opacity: 0;
+    animation: fade-in 0.7s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    100% {opacity: 1}
+    0% {opacity: 0}
+}
+
+@keyframes fade {
+    100% { opacity: 0 }
+    0% { opacity: 1 }
+}
+/* Fade-In Effect */
+.visible
+{
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+/* Fade-Out Effect */
+.hidden
+{
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.game-button{
+    margin: auto;
+    font-family: "lobster";
+}
+
+.game-screen{
+    border-radius: 25px;
+    background: darkgray;
+    border: solid black 5px;
+    padding-bottom: 20px;
+}
+
+.artist-detail{
+    border-radius: 25px;
+    background: gray;
+    padding: 2%;
+    color: white;
+    height: 50%;
+    transition: height 3s;
+    margin-bottom: 100px;
+
+
+}
+
+#collapse-wrapper{
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.navbar{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.artist-detail-content{
+    margin: 4%;
+    padding: auto;
+}
+
+.artist-name{
+    cursor: pointer;
+}
+
+.artist-name:hover{
+    color: red;
+}
+
+.artist-list-entry{
+    margin-bottom: 40px;
+}
+
+.voteBar{
+    margin-top: 50px;
+}
+
+#info-button-container{
+    padding-left: 44.3%;
+    margin-bottom: 30px;
+}
+
+.btn{
+  font-family: "lobster";
+}
+
+.text-help{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#submitButton{
+    margin:auto;
+}
+
+#voteButton{
+    cursor: pointer;
+}
+
+#loginButton{
+    cursor: pointer;
+}
+
+#infoButton{
+    cursor: pointer;
+}
+
+#chatDisplay{
+    background: white;
+    border-radius: 4%;
+    border: solid black 5px;
+    padding: 20px;
+    height: 100%;
+}
+
+#artistPicture{
+    border-radius: 50%;
+    height: 380px;
+    width: 470px;
+    margin-right: 50px;
+    transition: height 500ms 0ms, opacity 500ms 500ms;
+    border: solid #FF9999 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 0 1px #000000;
+}
+
+#artistPictureGame{
+    border-radius: 50%;
+    height: 500px;
+    width: 620px;
+    border: solid #FF9999 10px;
+    box-shadow: 0 0 0 1px #000000;
+    margin: 10% auto 10%;
+}
+
+#artist-bio{
+    text-align: center;
+}
+
+#artist-scores {
+    border-radius: 25px;
+    background: #FF9999;
+    padding: 2%;
+    color: black;
+    border: solid black 1px;
+    transition: height 3s;
+}
+
+#artist-container{
+    margin-top: 3%;
+    padding-right: 2%;
+}
+
+
+#buttonContainer{
+    padding-left: 46%;
+}
+
+.scoreEntry{
+    margin: 2% 2%;
+    padding:3%;
+
+}
+
+#artist-list{
+    border: solid black 1px;
+    border-radius: 25px;
+    padding-top: 8%;
+}
+
+.nopadding-left{
+    padding-left: 0 !important;
+    border-top: solid black 3px;
+}
+
+.nopadding-right{
+    padding-right: 0 !important;
+    border-right: solid black 3px;
+    border-top: solid black 3px;
+}
+
+#base{
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 90%;
+}
+
+.countBadge{
+    float: right;
+    background: green;
+    color: white;
+    border-radius: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 60%;
+}
+
+#selectedConvo{
+    background: black;
+    color: white;
+    border-radius: 10%;
+    font-size: 1.2em;
+}
+
+#convoButton{
+    margin: auto;
+    margin-top: 25%;
+
+}
+
+.messageWrapper .friendIcon{
+    position:relative;
+    visibility:hidden;
+}
+
+.messageWrapper:hover .friendIcon{
+    visibility: visible;
+}
+
+.friendIcon{
+    float: right;
+    cursor: pointer;
+}
+
+.logIn{
+    margin: auto;
+    padding-top: 20%;
+}
+
+.textInput{
+    margin: 2%;
+
+}
+
+#pleaseLogIn{
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#logInDetails{
+    font-size: .5em;
+}
