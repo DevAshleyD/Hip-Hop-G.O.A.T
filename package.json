@@ -2,9 +2,11 @@
   "name": "goat-site",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://DevAshleyD.github.io/Hip-Hop-G.O.A.T",
   "dependencies": {
     "axios": "^0.16.2",
     "bootstrap": "^4.0.0-alpha.6",
+    "gh-pages": "^2.1.1",
     "inline-style-prefixer": "^3.0.7",
     "lodash": "^4.17.4",
     "pitchfork": "latest",
@@ -40,6 +42,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
