@@ -4,7 +4,7 @@
   "private": true,
   "homepage" : "http://DevAshleyD.github.io/Hip-Hop-G.O.A.T",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "bootstrap": "^4.0.0-alpha.6",
     "gh-pages": "^2.1.1",
     "inline-style-prefixer": "^3.0.7",
